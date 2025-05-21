@@ -24,7 +24,7 @@ The dataset consists of **3006 customers** with the following characteristics:
 - **Chi tiêu (trung bình một tháng)**: Average monthly spending of the borrower.  
 - **Mục đích vay**: Reason for applying for the loan (e.g., Education, Business, etc). 
 - **Hóa đơn tiền điện**: Average monthly electricity bill of the borrower's household.
-
+===============================================================================================
 - **15 explanatory variables** (excluding customer ID)
 - **7 integer variables (int64)**
 - **2 float variables (float64)**
