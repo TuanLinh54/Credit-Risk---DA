@@ -24,16 +24,17 @@ The dataset consists of **3006 customers** with the following characteristics:
 - **Chi tiêu (trung bình một tháng)**: Average monthly spending of the borrower.  
 - **Mục đích vay**: Reason for applying for the loan (e.g., Education, Business, etc). 
 - **Hóa đơn tiền điện**: Average monthly electricity bill of the borrower's household.
-===============================================================================================
+
+About datasets:
 - **15 explanatory variables** (excluding customer ID)
 - **7 integer variables (int64)**
 - **2 float variables (float64)**
 - **8 categorical variables (object)**
 - Some columns contain missing values, including:
-  - *Marital status*
-  - *Years of work experience*
-  - *Electric bill*
-  - *Education level*
+  - *Tình trạng hôn nhân*
+  - *Tình trạng công việc hiện tại*
+  - *Hóa đơn tiền điện*
+  - *Trình độ học vấn*
 
 ## Objectives 🎯
 
@@ -41,20 +42,23 @@ The dataset consists of **3006 customers** with the following characteristics:
    - Understand distribution of numerical features such as age, income, expenses, electric bill, loan amount, loan term, number of dependents.
    - Analyze categorical features like gender, loan purpose, marital status, education, occupation, etc.
    - Visualize insights using `seaborn`, `matplotlib`.
+![image](https://github.com/user-attachments/assets/96cb50e4-80bf-4945-b920-605edb55f626)
+
+
 
 2. **Data Preprocessing**:
-   - Handle missing values using interpolation, imputation, or removal where necessary.
-   - Encode categorical features using One-Hot Encoding or Label Encoding.
+   - Handling missing values in `Tình trạng hôn nhân`, `Tình trạng công việc hiện tại`, `Hóa đơn tiền điện`, `Trình độ học vấn`.
    - Normalize numerical features if required for modeling.
 
-3. **Outlier Detection**:
-   - Use techniques like IQR, Z-score, or models like Isolation Forest to detect and handle outliers.
+3. **Feature Engineering**:
+   - Creating new features to better represent customer behavior and transaction patterns.
 
 4. **Model Building for Risk Prediction**:
    - Use machine learning algorithms:
      - **Logistic Regression**
      - **Random Forest**
-     - **XGBoost / LightGBM**
+     - **Decision Tree**
+     - **Naive Bayes**
    - Evaluate models using:
      - Confusion Matrix
      - Accuracy, Precision, Recall, F1-score
