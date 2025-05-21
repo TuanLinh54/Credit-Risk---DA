@@ -9,22 +9,22 @@ This project focuses on analyzing data to assess **credit risk** of customers fo
 
 The dataset consists of **3006 customers** with the following characteristics:
 
-**Độ tuổi**: Age of the borrower (in years).  
-**Giới tính**: Gender of the borrower (e.g., Male, Female).  
-**Tình trạng hôn nhân**: Indicates whether the borrower is single, married, divorced, etc.  
-**Trình độ học vấn**: Highest education level attained by the borrower.  
-**Tình trạng công việc hiện tại (số năm kinh nghiệm)**: Number of years the borrower has been employed.  
-**Số thành viên phụ thuộc trong gia đình**: Total number of people financially dependent on borrower.  
-**Tình trạng sở hữu nhà ở**: Indicates if the borrower owns, rents, or lives with family.
-**Thu nhập**: Monthly income of the borrower.  
-**Số tiền dự kiến vay**: The amount of money the borrower wants to borrow.  
-**Chứng minh thu nhập**: Whether the borrower can provide income documentation.  
-**Thời hạn khoản vay**: Duration of the loan in months.  
-**Tài sản thế chấp**: Indicates whether the borrower offers any assets as collateral.  
-**Chi tiêu (trung bình một tháng)**: Average monthly spending of the borrower.  
-**Mục đích vay**: Reason for applying for the loan (e.g., Education, Business, etc). 
-**Hóa đơn tiền điện**: Average monthly electricity bill of the borrower's household.
-========================================================================================
+- **Độ tuổi**: Age of the borrower (in years).  
+- **Giới tính**: Gender of the borrower (e.g., Male, Female).  
+- **Tình trạng hôn nhân**: Indicates whether the borrower is single, married, divorced, etc.  
+- **Trình độ học vấn**: Highest education level attained by the borrower.  
+- **Tình trạng công việc hiện tại (số năm kinh nghiệm)**: Number of years the borrower has been employed.  
+- **Số thành viên phụ thuộc trong gia đình**: Total number of people financially dependent on borrower.  
+- **Tình trạng sở hữu nhà ở**: Indicates if the borrower owns, rents, or lives with family.
+- **Thu nhập**: Monthly income of the borrower.  
+- **Số tiền dự kiến vay**: The amount of money the borrower wants to borrow.  
+- **Chứng minh thu nhập**: Whether the borrower can provide income documentation.  
+- **Thời hạn khoản vay**: Duration of the loan in months.  
+- **Tài sản thế chấp**: Indicates whether the borrower offers any assets as collateral.  
+- **Chi tiêu (trung bình một tháng)**: Average monthly spending of the borrower.  
+- **Mục đích vay**: Reason for applying for the loan (e.g., Education, Business, etc). 
+- **Hóa đơn tiền điện**: Average monthly electricity bill of the borrower's household.
+
 - **15 explanatory variables** (excluding customer ID)
 - **7 integer variables (int64)**
 - **2 float variables (float64)**
